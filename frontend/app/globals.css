@@ -1,0 +1,32 @@
+@import "../styles/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at top left, rgba(99, 102, 241, 0.18), transparent 28%),
+      radial-gradient(circle at bottom right, rgba(34, 197, 94, 0.14), transparent 24%);
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-2xl border border-white/20 bg-white/70 shadow-glass backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/55;
+  }
+
+  .panel-header {
+    @apply text-sm font-semibold uppercase tracking-[0.24em] text-muted-foreground;
+  }
+}

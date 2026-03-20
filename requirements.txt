@@ -1,0 +1,20 @@
+# Backend Python dependencies for ADEA.
+# Frontend dependencies are managed separately in frontend/package.json.
+# Python version target: 3.11+
+# Note: the `graphviz` Python package also requires the Graphviz system binary
+# (`dot`) on PATH if you want PNG/SVG graph rendering.
+
+duckdb
+duckdb-engine
+faiss-cpu
+fastapi
+graphviz
+great-expectations
+groq
+langgraph
+pydantic
+pydantic-settings
+python-dotenv
+sqlalchemy
+sqlglot
+uvicorn
