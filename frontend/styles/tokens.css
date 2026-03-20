@@ -1,0 +1,41 @@
+:root {
+  --font-sans: "Aptos", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-display: "Bahnschrift", "Trebuchet MS", "Aptos", sans-serif;
+  --background: 220 33% 98%;
+  --foreground: 224 30% 12%;
+  --muted: 220 24% 93%;
+  --muted-foreground: 220 12% 36%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 30% 12%;
+  --border: 220 24% 87%;
+  --input: 220 24% 87%;
+  --ring: 238 84% 67%;
+  --primary: 238 84% 67%;
+  --primary-foreground: 0 0% 100%;
+  --success: 142 71% 45%;
+  --success-foreground: 0 0% 100%;
+  --warning: 38 92% 50%;
+  --warning-foreground: 24 9% 10%;
+  --error: 0 84% 60%;
+  --error-foreground: 0 0% 100%;
+}
+
+.dark {
+  --background: 222 47% 8%;
+  --foreground: 220 33% 96%;
+  --muted: 223 25% 16%;
+  --muted-foreground: 219 15% 66%;
+  --card: 223 29% 11%;
+  --card-foreground: 220 33% 96%;
+  --border: 223 21% 22%;
+  --input: 223 21% 22%;
+  --ring: 238 84% 67%;
+  --primary: 238 84% 67%;
+  --primary-foreground: 0 0% 100%;
+  --success: 142 71% 45%;
+  --success-foreground: 0 0% 100%;
+  --warning: 38 92% 50%;
+  --warning-foreground: 24 9% 10%;
+  --error: 0 84% 60%;
+  --error-foreground: 0 0% 100%;
+}
